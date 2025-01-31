@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "William",
+        "last": "Nielsen"
+      },
+      "location": {
+        "street": {
+          "number": 4084,
+          "name": "Solbakkevej"
+        },
+        "city": "Haslev",
+        "state": "Sjælland",
+        "country": "Denmark",
+        "postcode": 50572,
+        "coordinates": {
+          "latitude": "-43.0682",
+          "longitude": "179.8298"
+        },
+        "timezone": {
+          "offset": "+2:00",
+          "description": "Kaliningrad, South Africa"
+        }
+      },
+      "email": "william.nielsen@example.com",
+      "login": {
+        "uuid": "986c4b79-52cd-4377-8712-2077a076e6d0",
+        "username": "lazybutterfly245",
+        "password": "letter",
+        "salt": "JwkXYoCD",
+        "md5": "afe53efa739626d478b83bce72a22ab3",
+        "sha1": "7c6eb6edd621f08ca612c3b59f4b01501ea30fc6",
+        "sha256": "16242f371f8a601ac5e6b34f62b35b2d7ee3f56179d7b4138c906c5bc75cb4e2"
+      },
+      "dob": {
+        "date": "1953-02-19T13:13:38.863Z",
+        "age": 71
+      },
+      "registered": {
+        "date": "2003-03-05T13:21:53.592Z",
+        "age": 21
+      },
+      "phone": "46044948",
+      "cell": "01197739",
+      "id": {
+        "name": "CPR",
+        "value": "190253-7190"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/44.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+      },
+      "nat": "DK"
+    }
+  ],
+  "info": {
+    "seed": "4bcf6e65b27852c7",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

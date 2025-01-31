@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Nanna",
+        "last": "Kristensen"
+      },
+      "location": {
+        "street": {
+          "number": 6400,
+          "name": "Finlandsvej"
+        },
+        "city": "Jystrup",
+        "state": "Syddanmark",
+        "country": "Denmark",
+        "postcode": 13350,
+        "coordinates": {
+          "latitude": "-46.6026",
+          "longitude": "121.9998"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "nanna.kristensen@example.com",
+      "login": {
+        "uuid": "b66ba25d-0a51-4f08-8d34-5b827d1bc86e",
+        "username": "crazyfrog738",
+        "password": "comein",
+        "salt": "Qug9bHt3",
+        "md5": "f4d8b19d8c9d8579f4ca551490ee524f",
+        "sha1": "991bf58c5589bc5f406742a21aba86bb5725bd58",
+        "sha256": "5d2f0c93ca21266a7a51287d9264ec6343b3c03e168a96ea66ea092ed6c115eb"
+      },
+      "dob": {
+        "date": "1973-04-10T22:55:22.908Z",
+        "age": 51
+      },
+      "registered": {
+        "date": "2005-12-03T06:50:07.197Z",
+        "age": 19
+      },
+      "phone": "80675484",
+      "cell": "35595999",
+      "id": {
+        "name": "CPR",
+        "value": "100473-2411"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/47.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/47.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/47.jpg"
+      },
+      "nat": "DK"
+    }
+  ],
+  "info": {
+    "seed": "54518c607457bc31",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Saloni",
+        "last": "Gamskar"
+      },
+      "location": {
+        "street": {
+          "number": 5662,
+          "name": "Gandhi Maidan Marg"
+        },
+        "city": "Ranchi",
+        "state": "Andaman and Nicobar Islands",
+        "country": "India",
+        "postcode": 63634,
+        "coordinates": {
+          "latitude": "11.7833",
+          "longitude": "159.0139"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "saloni.gamskar@example.com",
+      "login": {
+        "uuid": "a4f195c0-9799-4550-846b-ebc88925fe31",
+        "username": "silvertiger722",
+        "password": "gocubs",
+        "salt": "EKJtwdss",
+        "md5": "e69e575499e8d8ce5faddf58c8b76e25",
+        "sha1": "a9025e1419aadb83c20a9be6cb8af444aad20bec",
+        "sha256": "bbfbf1183703bb6f4733432183250f60a8ea641cb282f5d974aa627750192751"
+      },
+      "dob": {
+        "date": "1988-05-18T18:01:30.090Z",
+        "age": 36
+      },
+      "registered": {
+        "date": "2013-03-03T10:24:10.946Z",
+        "age": 11
+      },
+      "phone": "8139921978",
+      "cell": "8915308187",
+      "id": {
+        "name": "UIDAI",
+        "value": "030971335104"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/54.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/54.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/54.jpg"
+      },
+      "nat": "IN"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Emre",
+        "last": "Sandland"
+      },
+      "location": {
+        "street": {
+          "number": 8892,
+          "name": "Holmens gate"
+        },
+        "city": "Østenstad",
+        "state": "Buskerud",
+        "country": "Norway",
+        "postcode": "5877",
+        "coordinates": {
+          "latitude": "80.8053",
+          "longitude": "91.1220"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "emre.sandland@example.com",
+      "login": {
+        "uuid": "e5f1950d-2db0-450e-b155-8216b74b1e5f",
+        "username": "yellowmouse734",
+        "password": "westside",
+        "salt": "zxayLUnW",
+        "md5": "2e6ee4c100b220fbe0b9bbf33fd9d578",
+        "sha1": "3b5ad149d8f0028c1c78425b430c857f5bb070a0",
+        "sha256": "18438058f927e3a71e0bc5bca46533a4e68ddf3f28751ca4966609e45be40320"
+      },
+      "dob": {
+        "date": "1958-07-21T04:13:55.788Z",
+        "age": 66
+      },
+      "registered": {
+        "date": "2002-06-26T11:25:18.168Z",
+        "age": 22
+      },
+      "phone": "38326281",
+      "cell": "98024117",
+      "id": {
+        "name": "FN",
+        "value": "21075832351"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/19.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/19.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+      },
+      "nat": "NO"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Seth",
+        "last": "Hunter"
+      },
+      "location": {
+        "street": {
+          "number": 429,
+          "name": "Rolling Green Rd"
+        },
+        "city": "Melbourne",
+        "state": "New South Wales",
+        "country": "Australia",
+        "postcode": 7688,
+        "coordinates": {
+          "latitude": "-61.2375",
+          "longitude": "94.4846"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "seth.hunter@example.com",
+      "login": {
+        "uuid": "66069c3c-ffab-4303-ac54-a4e3fc13712b",
+        "username": "greenbird125",
+        "password": "1passwor",
+        "salt": "DBR1Og0u",
+        "md5": "7b372a6c5cbc3d5716795eb3da66d8e7",
+        "sha1": "f2eea9b29d47d6a9d396302b4ecc80783b07bb16",
+        "sha256": "8be3f67942550718d3f7915e48251952034f337d8e6c271c1d52040fa9aee2c8"
+      },
+      "dob": {
+        "date": "1966-07-08T15:51:29.558Z",
+        "age": 58
+      },
+      "registered": {
+        "date": "2004-08-30T15:02:32.725Z",
+        "age": 20
+      },
+      "phone": "07-2612-8874",
+      "cell": "0410-192-081",
+      "id": {
+        "name": "TFN",
+        "value": "282430620"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "نیایش",
+        "last": "صدر"
+      },
+      "location": {
+        "street": {
+          "number": 6962,
+          "name": "وحدت اسلامی"
+        },
+        "city": "بابل",
+        "state": "قم",
+        "country": "Iran",
+        "postcode": 50950,
+        "coordinates": {
+          "latitude": "57.1912",
+          "longitude": "7.8231"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "nyysh.sdr@example.com",
+      "login": {
+        "uuid": "5a03e710-b924-477b-9a1f-50500610c392",
+        "username": "tinysnake116",
+        "password": "6464",
+        "salt": "2PYuS0GW",
+        "md5": "c7e672560273726b602586fb5a1aa726",
+        "sha1": "f52b1529b37ab352eeafeba1063dcd248c212c89",
+        "sha256": "3a9511ff6e7d94acbe2cae98b53ee4d7dcfdca27ae43ac16423964047787fd77"
+      },
+      "dob": {
+        "date": "1983-05-16T19:05:50.289Z",
+        "age": 41
+      },
+      "registered": {
+        "date": "2017-01-01T12:05:32.529Z",
+        "age": 8
+      },
+      "phone": "096-41454568",
+      "cell": "0969-700-9519",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/65.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/65.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/65.jpg"
+      },
+      "nat": "IR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Madame",
+        "first": "Delia",
+        "last": "Le Gall"
+      },
+      "location": {
+        "street": {
+          "number": 777,
+          "name": "Montée du Chemin-Neuf"
+        },
+        "city": "Gersau",
+        "state": "Neuchâtel",
+        "country": "Switzerland",
+        "postcode": 2859,
+        "coordinates": {
+          "latitude": "-51.2852",
+          "longitude": "143.2034"
+        },
+        "timezone": {
+          "offset": "-12:00",
+          "description": "Eniwetok, Kwajalein"
+        }
+      },
+      "email": "delia.legall@example.com",
+      "login": {
+        "uuid": "ec6212e3-1e24-4e36-90a3-0c9bc6f4bd28",
+        "username": "bluemouse926",
+        "password": "chewy",
+        "salt": "AOvPta4N",
+        "md5": "f6880629b3440f8752aab1434bef9a54",
+        "sha1": "a274b64becc59b4594f2e31d722dec6bd8952a93",
+        "sha256": "fc714d89baae97af186c9b823d0fdb4a7a4b448e5fed1927de29b3c3e71e2064"
+      },
+      "dob": {
+        "date": "1971-02-04T12:09:27.367Z",
+        "age": 53
+      },
+      "registered": {
+        "date": "2017-08-01T20:33:59.238Z",
+        "age": 7
+      },
+      "phone": "076 466 35 35",
+      "cell": "077 619 16 00",
+      "id": {
+        "name": "AVS",
+        "value": "756.5590.9929.83"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/80.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/80.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/80.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "b00524fb595695a8",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}

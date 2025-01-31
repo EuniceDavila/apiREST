@@ -1,0 +1,12 @@
+#APIJSONPlaceholder (Datos de prueba: usuarios, publicaciones, comentarios)
+#Obtener todos los usuarios
+GET https://jsonplaceholder.typicode.com/users HTTP/1.1
+Accept: application/json
+
+#Obtener un usuario específico (por ID)
+GET https://jsonplaceholder.typicode.com/users/3 HTTP/1.1
+Accept: application/json
+
+# Obtener todas las publicaciones (posts)
+GET https://jsonplaceholder.typicode.com/posts
+Accept: application/json

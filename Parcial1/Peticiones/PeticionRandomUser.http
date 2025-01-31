@@ -1,0 +1,14 @@
+#API Random User Generator
+#Obtener un usuario aleatorio
+GET https://randomuser.me/api/ HTTP/1.1
+Accept: application/json
+User-Agent: MiClienteHTTP/1.0
+
+#Obtener 5 usuarios aleatorios
+GET https://randomuser.me/api/?results=5 HTTP/1.1
+Accept: application/json
+
+#Obtener solo usuarios hombres
+GET https://randomuser.me/api/?gender=male HTTP/1.1
+Accept: application/json
+
