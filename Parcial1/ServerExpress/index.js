@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const xmlparser = require('express-xml-bodyparser');
 const port=3000;
 
 //Middleware de aplicación
@@ -14,6 +15,8 @@ const port=3000;
 //Middleware incorporado en express
 app.use(express.json());
 app.use(express.text());
+app.use(xmlparser());
+
 
 app.get('/alumnos', (req, res,next) => {
     console.log(req.query);
@@ -27,6 +30,11 @@ app.patch('/', (req, res) => {
 
 app.post('/sistemas/:control', (req, res) => {
     console.log(req.params);
+    res.send('Hola!');
+});
+
+app.post('/prefectos', (req, res) => {
+    console.log(req.body);
     res.send('Hola!');
 });
 
