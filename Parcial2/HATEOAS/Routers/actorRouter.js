@@ -25,7 +25,6 @@ router.post('/', validarActor, (req, res, next) => {
         return res.status(400).json({ errores: errores.array() });
     }
 
-    // Si no hay errores, llamar a la función para agregar al actor
     agregarActor(req, res, next);
 });
 
