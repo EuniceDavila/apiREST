@@ -1,0 +1,20 @@
+{
+  "name": "jsdoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c jsdoc.json --readme Readme.md",
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.3.0"
+  },
+  "dependencies": {
+    "docdash": "^2.0.2"
+  }
+}
