@@ -1,0 +1,87 @@
+openapi: 3.0.0
+info:
+  description: Documentación de la API de actores
+  title: API Actores
+  version: 1.0.0
+servers:
+- url: http://localhost:3000
+paths:
+  /actor/{id}:
+    get:
+      description: Devuelve los detalles de un actor especificado por su ID.
+      parameters:
+      - description: ID del actor
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: integer
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/_actor__id__get_200_response'
+          description: Actor encontrado
+        "404":
+          description: Actor no encontrado
+        "500":
+          description: Error en el servidor
+      summary: Obtener actor por ID
+      x-codeSamples:
+      - lang: JavaScript
+        label: Fetch Example
+        source: |
+          fetch('http://localhost:3000/actor/1')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+      - lang: Python
+        label: HttpClient Ejemplo
+        source: |
+          import http.client
+
+          conn = http.client.HTTPConnection("localhost", 3000)
+          conn.request("GET", "/actor/1")
+          response = conn.getresponse()
+          result = response.read()
+          print(result.decode("utf-8"))
+      - lang: curl
+        label: Curl Example
+        source: |
+          curl -X GET http://localhost:3000/actor/1
+      x-accepts:
+      - application/json
+components:
+  schemas:
+    _actor__id__get_200_response:
+      example:
+        peliculaMasExitosa: Película Exitosa
+        genero: Masculino
+        premios: 3
+        id: 1
+        nombre: Nombre del Actor
+        nacionalidad: Mexicana
+      properties:
+        id:
+          example: 1
+          type: integer
+        nombre:
+          example: Nombre del Actor
+          type: string
+        genero:
+          example: Masculino
+          type: string
+        nacionalidad:
+          example: Mexicana
+          type: string
+        peliculaMasExitosa:
+          example: Película Exitosa
+          type: string
+        premios:
+          example: 3
+          type: integer
+      type: object
+
